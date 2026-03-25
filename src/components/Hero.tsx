@@ -96,7 +96,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="mt-8 text-center text-sm text-muted-foreground"
           >
-            Join 1,847 women already on the list
+            Join 1,200 women already on the list
           </motion.div>
         </motion.div>
       </div>
