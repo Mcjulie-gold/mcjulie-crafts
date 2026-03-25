@@ -1,6 +1,6 @@
 # Planning Guide
 
-A premium waitlist landing page for a luxury motherhood brand founded for women, by women—selling thoughtfully designed bags for modern working mothers, capturing sophisticated style with warm, approachable elegance.
+A premium waitlist landing page for a luxury motherhood brand **founded by women, for women**—selling thoughtfully designed bags for modern working mothers, capturing sophisticated style with warm, approachable elegance.
 
 **Experience Qualities**:
 1. **Luxuriously Aspirational** - The site should feel like walking into a high-end boutique, with every detail whispering quality and exclusivity.
@@ -20,11 +20,11 @@ This is a marketing landing page designed to capture waitlist signups through co
 - **Success criteria**: Email successfully stored in KV storage, user receives visual confirmation, form shows success state
 
 ### Hero Section with Value Proposition
-- **Functionality**: Immediately communicates brand positioning and core message, emphasizing the "founded for women, by women" ethos
-- **Purpose**: Hook visitors within 3 seconds and establish brand identity rooted in female entrepreneurship
+- **Functionality**: Immediately communicates brand positioning and core message, emphasizing the **"founded by women, for women"** ethos prominently
+- **Purpose**: Hook visitors within 3 seconds and establish brand identity rooted in female entrepreneurship and authentic understanding of women's needs
 - **Trigger**: Page load
-- **Progression**: Page loads → Hero animates in → User reads headline with prominent "founded for women, by women" messaging → Scrolls for more
-- **Success criteria**: Clear hierarchy, legible typography, emotionally resonant messaging that connects with female audience
+- **Progression**: Page loads → Hero animates in → User reads headline with prominent **"Founded by women, for women"** messaging highlighted in brand pink → Scrolls for more
+- **Success criteria**: Clear hierarchy, legible typography, emotionally resonant messaging that connects deeply with female audience and establishes trust through shared experience
 
 ### Social Media Integration
 - **Functionality**: Links to brand Instagram account
@@ -57,7 +57,7 @@ This is a marketing landing page designed to capture waitlist signups through co
 
 ## Design Direction
 
-The design should evoke the feeling of discovering an exclusive boutique recommendation from a stylish friend—premium but not pretentious, luxurious but warm. The brand story of being "founded for women, by women" should be woven throughout, creating authentic connection and trust. It should feel like soft cashmere, champagne gold hardware, and the quiet confidence of a woman who has nothing to prove. The aesthetic should balance aspirational luxury with genuine warmth and sisterhood, using sophisticated restraint rather than maximalist opulence.
+The design should evoke the feeling of discovering an exclusive boutique recommendation from a stylish friend—premium but not pretentious, luxurious but warm. The brand story of being **"founded by women, for women"** should be woven throughout as the foundation of authentic connection and trust. It should feel like soft cashmere, champagne gold hardware, and the quiet confidence of a woman who has nothing to prove. The aesthetic should balance aspirational luxury with genuine warmth and sisterhood, using sophisticated restraint rather than maximalist opulence. Every design choice should reinforce the message that this brand truly understands women because it was created by women who live the same journey.
 
 ## Color Selection
 
