@@ -16,7 +16,7 @@ const pillars = [
   {
     icon: Heart,
     title: "Thoughtfully Crafted",
-    description: "Created for women who navigate motherhood and career with grace, confidence, and uncompromising standards.",
+    description: "Founded for women, by women. Created for those who navigate motherhood and career with grace, confidence, and uncompromising standards.",
   },
 ]
 

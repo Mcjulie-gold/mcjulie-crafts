@@ -27,10 +27,10 @@ export function About() {
           className="text-center"
         >
           <h2 className="font-serif text-4xl font-bold text-foreground md:text-5xl">
-            Founded by Mothers, For Mothers
+            Founded for Women, by Women
           </h2>
           <p className="mt-8 text-lg leading-relaxed text-foreground/90 md:text-xl">
-            Born from the real experiences of working mothers who couldn't find bags that matched their sophisticated taste while meeting their practical needs. Every detail is considered, every choice intentional.
+            Born from the real experiences of working mothers who couldn't find bags that matched their sophisticated taste while meeting their practical needs. We're women who understand the journey—because we're living it too. Every detail is considered, every choice intentional.
           </p>
         </motion.div>
 
