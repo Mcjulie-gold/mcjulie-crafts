@@ -20,14 +20,9 @@ export function Hero() {
             Where Motherhood Meets Modern Luxury
           </h1>
           
-          <div className="mt-8 flex flex-col items-center gap-4">
-            <p className="text-xl leading-relaxed text-muted-foreground md:text-2xl">
-              Thoughtfully designed bags for the woman who refuses to choose between style and function.
-            </p>
-            <Badge className="bg-gradient-to-r from-primary to-accent px-6 py-2 text-base font-semibold text-primary-foreground shadow-lg md:text-lg">
-              Coming Soon
-            </Badge>
-          </div>
+          <p className="mt-8 text-xl leading-relaxed text-muted-foreground md:text-2xl">
+            Thoughtfully designed bags for the woman who refuses to choose between style and function.
+          </p>
           
           <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-foreground/80 md:text-lg">
             We're crafting the future of premium functional design—bags that understand your journey from boardroom to baby room, created for the modern woman who values both beauty and purpose.

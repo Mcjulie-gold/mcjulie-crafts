@@ -1,11 +1,7 @@
-import { useState } from "react"
 import { motion } from "framer-motion"
-import { Sparkle, Package, Gift, Phone, Target, Check } from "@phosphor-icons/react"
+import { Sparkle, Package, Gift, Phone, Target } from "@phosphor-icons/react"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { useKV } from "@github/spark/hooks"
-import { toast } from "sonner"
 
 const benefits = [
   {
@@ -30,38 +26,11 @@ const benefits = [
   },
 ]
 
+const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdwSQQ-0CqktEEXiYxB1IULNNZVIRQqYnKXTD9LMtGYv9sd8Q/viewform"
+
 export function Waitlist() {
-  const [email, setEmail] = useState("")
-  const [isLoading, setIsLoading] = useState(false)
-  const [waitlistEmails, setWaitlistEmails] = useKV<string[]>("waitlist-emails", [])
-  const [hasSubmitted, setHasSubmitted] = useState(false)
-
-  const validateEmail = (email: string) => {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
-  }
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    
-    if (!validateEmail(email)) {
-      toast.error("Please enter a valid email address")
-      return
-    }
-
-    setIsLoading(true)
-
-    setTimeout(() => {
-      const currentEmails = waitlistEmails || []
-      if (currentEmails.includes(email)) {
-        toast.success("You're already on the list! We'll be in touch soon.")
-      } else {
-        setWaitlistEmails((current) => [...(current || []), email])
-        toast.success("Welcome to the exclusive community!")
-        setHasSubmitted(true)
-      }
-      setIsLoading(false)
-      setEmail("")
-    }, 1000)
+  const handleSecureSpot = () => {
+    window.open(GOOGLE_FORM_URL, '_blank', 'noopener,noreferrer')
   }
 
   return (
@@ -112,41 +81,21 @@ export function Waitlist() {
           </div>
         </motion.div>
 
-        <motion.form
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          onSubmit={handleSubmit}
-          className="mt-12"
+          className="mt-12 flex justify-center"
         >
-          <div className="flex flex-col gap-4 sm:flex-row">
-            <Input
-              id="email-signup"
-              type="email"
-              placeholder="Enter your email for exclusive access"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="h-14 flex-1 border-accent bg-card text-base focus-visible:ring-primary"
-              required
-            />
-            <Button
-              type="submit"
-              size="lg"
-              disabled={isLoading || !email}
-              className="h-14 bg-primary px-8 text-base font-semibold hover:scale-105 hover:bg-primary/90"
-            >
-              {isLoading ? "Joining..." : hasSubmitted ? (
-                <>
-                  <Check className="mr-2 h-5 w-5" weight="bold" />
-                  Secured!
-                </>
-              ) : (
-                "Secure My Spot"
-              )}
-            </Button>
-          </div>
-        </motion.form>
+          <Button
+            onClick={handleSecureSpot}
+            size="lg"
+            className="h-16 bg-primary px-12 text-lg font-semibold transition-all hover:scale-105 hover:bg-primary/90"
+          >
+            Secure Your Spot
+          </Button>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0 }}

@@ -1,12 +1,11 @@
 import { Button } from "@/components/ui/button"
 import { InstagramLogo } from "@phosphor-icons/react"
 
+const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdwSQQ-0CqktEEXiYxB1IULNNZVIRQqYnKXTD9LMtGYv9sd8Q/viewform"
+
 export function Footer() {
-  const handleScrollToWaitlist = () => {
-    const waitlistSection = document.getElementById("waitlist")
-    if (waitlistSection) {
-      waitlistSection.scrollIntoView({ behavior: "smooth" })
-    }
+  const handleJoinMovement = () => {
+    window.open(GOOGLE_FORM_URL, '_blank', 'noopener,noreferrer')
   }
 
   return (
@@ -37,7 +36,7 @@ export function Footer() {
           </p>
 
           <Button
-            onClick={handleScrollToWaitlist}
+            onClick={handleJoinMovement}
             size="lg"
             className="mt-12 h-16 bg-primary px-12 text-lg font-semibold text-primary-foreground shadow-2xl shadow-primary/30 transition-all hover:scale-105 hover:bg-primary/90 hover:shadow-primary/50"
           >
