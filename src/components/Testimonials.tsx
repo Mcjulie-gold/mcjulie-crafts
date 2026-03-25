@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Quotes } from "@phosphor-icons/react"
-import womenImage from "@/assets/images/medium-shot-african-women-posing-together.jpg"
+import heroImage from "@/assets/images/full-shot-smiley-woman-holding-backpack.jpg"
 
 const testimonials = [
   {
@@ -53,9 +53,9 @@ export function Testimonials() {
             className="order-2 lg:order-1"
           >
             <img 
-              src={womenImage} 
-              alt="Women from around the world"
-              className="w-full h-auto rounded-2xl shadow-xl object-cover"
+              src={heroImage} 
+              alt="Modern woman with stylish backpack"
+              className="w-full h-auto rounded-2xl shadow-xl object-cover max-h-[600px]"
             />
           </motion.div>
 
