@@ -32,7 +32,7 @@ export function ValueProposition() {
           className="mb-20 text-center"
         >
           <h2 className="font-serif text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl">
-            Soft Luxury.
+            McJulie Crafts.
             <span className="mt-2 block bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
               Thoughtful Design.
             </span>

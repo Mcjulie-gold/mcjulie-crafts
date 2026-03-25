@@ -48,6 +48,17 @@ export function Hero() {
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="mb-6 flex justify-center"
+          >
+            <h1 className="font-serif text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl">
+              McJulie Crafts
+            </h1>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mb-8 flex justify-center"
           >
@@ -59,12 +70,12 @@ export function Hero() {
             </div>
           </motion.div>
 
-          <h1 className="text-center font-serif text-5xl font-bold leading-[1.1] tracking-tight text-foreground md:text-6xl lg:text-7xl xl:text-8xl">
+          <h2 className="text-center font-serif text-4xl font-bold leading-[1.1] tracking-tight text-foreground md:text-5xl lg:text-6xl xl:text-7xl">
             Where Motherhood
             <span className="mt-2 block bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
               Meets Modern Luxury
             </span>
-          </h1>
+          </h2>
           
           <p className="mt-10 text-center text-xl font-medium leading-relaxed text-foreground/70 md:text-2xl lg:text-3xl">
             Thoughtfully designed bags for the woman who refuses to choose between style and function.

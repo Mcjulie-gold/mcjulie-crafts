@@ -55,7 +55,7 @@ export function Waitlist() {
           <h2 className="font-serif text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl xl:text-7xl">
             Be Among the First to
             <span className="mt-2 block bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-              Experience Soft Luxury
+              Experience McJulie Crafts
             </span>
           </h2>
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-relaxed text-muted-foreground md:text-xl lg:text-2xl">

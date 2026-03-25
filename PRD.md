@@ -1,6 +1,6 @@
 # Planning Guide
 
-A premium waitlist landing page for a luxury motherhood brand **founded by women, for women**—selling thoughtfully designed bags for modern working mothers, capturing sophisticated style with warm, approachable elegance.
+A premium waitlist landing page for **McJulie Crafts**, a luxury motherhood brand **founded by women, for women**—selling thoughtfully designed bags for modern working mothers, capturing sophisticated style with warm, approachable elegance.
 
 **Experience Qualities**:
 1. **Luxuriously Aspirational** - The site should feel like walking into a high-end boutique, with every detail whispering quality and exclusivity.
