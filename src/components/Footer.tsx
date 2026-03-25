@@ -83,7 +83,7 @@ export function Footer() {
 
         <div className="mt-20 border-t border-white/5 pt-10 lg:mt-24">
           <p className="text-center text-sm text-white/40">
-            © 2024 Mcjulie Crafts. All rights reserved.
+            © 2026 Mcjulie Crafts. All rights reserved.
           </p>
         </div>
       </div>
