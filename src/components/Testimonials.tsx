@@ -7,17 +7,17 @@ import heroImage from "@/assets/images/full-shot-smiley-woman-holding-backpack.j
 const testimonials = [
   {
     quote: "Finally, a brand that understands that modern women need luxury AND functionality.",
-    author: "Coming Soon",
-    isComingSoon: true,
+    author: "Amara Okafor, Nigeria",
+    isComingSoon: false,
   },
   {
     quote: "I can't wait for bags that work as hard as I do.",
-    author: "Founding Member",
+    author: "Thandiwe Mbeki, South Africa",
     isComingSoon: false,
   },
   {
     quote: "This is exactly what modern motherhood needs.",
-    author: "Early Access",
+    author: "Akinyi Wanjiru, Kenya",
     isComingSoon: false,
   },
 ]
