@@ -86,6 +86,69 @@ export function Waitlist() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.4 }}
+          className="mt-16"
+        >
+          <div className="grid grid-cols-2 gap-4 md:gap-6">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.5 }}
+              className="aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-accent/30 to-secondary/30 shadow-lg"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop"
+                alt="Professional woman in modern setting"
+                className="h-full w-full object-cover"
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.6 }}
+              className="aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-primary/30 to-accent/30 shadow-lg"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=800&auto=format&fit=crop"
+                alt="Elegant woman with confidence"
+                className="h-full w-full object-cover"
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.7 }}
+              className="aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-secondary/30 to-primary/30 shadow-lg"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?q=80&w=800&auto=format&fit=crop"
+                alt="Modern professional woman"
+                className="h-full w-full object-cover"
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.8 }}
+              className="aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-accent/30 to-primary/30 shadow-lg"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop"
+                alt="Confident woman in professional attire"
+                className="h-full w-full object-cover"
+              />
+            </motion.div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.9 }}
           className="mt-12 flex justify-center"
         >
           <Button
