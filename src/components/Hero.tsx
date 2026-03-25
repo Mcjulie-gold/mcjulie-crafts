@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkle } from "@phosphor-icons/react"
+import heroImage from "@/assets/images/medium-shot-african-women-posing-together.jpg"
 
 const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdwSQQ-0CqktEEXiYxB1IULNNZVIRQqYnKXTD9LMtGYv9sd8Q/viewform"
 
@@ -108,6 +109,22 @@ export function Hero() {
             className="mt-8 text-center text-sm text-muted-foreground"
           >
             Join <span className="font-bold">1,200 women</span> already on the list
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.7 }}
+            className="mt-20 flex justify-center"
+          >
+            <div className="relative w-full max-w-4xl overflow-hidden rounded-3xl shadow-2xl">
+              <img 
+                src={heroImage} 
+                alt="Elegant women embodying modern sophistication" 
+                className="h-full w-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
+            </div>
           </motion.div>
         </motion.div>
       </div>
