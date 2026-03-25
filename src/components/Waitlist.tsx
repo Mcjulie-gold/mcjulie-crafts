@@ -106,7 +106,7 @@ export function Waitlist() {
           </Button>
 
           <Badge variant="secondary" className="border-2 border-primary/20 bg-primary/5 px-6 py-3 text-sm font-medium text-foreground">
-            ✨ Limited to 2000 founding members globally
+            ✨ Limited to 2000 Bloom women globally
           </Badge>
         </motion.div>
       </div>
