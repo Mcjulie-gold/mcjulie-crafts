@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Quotes } from "@phosphor-icons/react"
+import womenImage from "@/assets/images/medium-shot-african-women-posing-together.jpg"
 
 const testimonials = [
   {
@@ -43,28 +44,44 @@ export function Testimonials() {
           </h2>
         </motion.div>
 
-        <div className="grid gap-8 md:grid-cols-3">
-          {testimonials.map((testimonial, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-            >
-              <Card className="h-full border-accent/20 bg-card/50 backdrop-blur">
-                <CardContent className="p-8">
-                  <Quotes className="mb-6 h-10 w-10 text-primary" weight="fill" />
-                  <p className="mb-6 text-lg leading-relaxed italic text-foreground">
-                    {testimonial.quote}
-                  </p>
-                  <p className={`font-medium ${testimonial.isComingSoon ? 'text-primary font-semibold' : 'text-muted-foreground'}`}>
-                    - {testimonial.author}
-                  </p>
-                </CardContent>
-              </Card>
-            </motion.div>
-          ))}
+        <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-center">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="order-2 lg:order-1"
+          >
+            <img 
+              src={womenImage} 
+              alt="Women from around the world"
+              className="w-full h-auto rounded-2xl shadow-xl object-cover"
+            />
+          </motion.div>
+
+          <div className="space-y-6 order-1 lg:order-2">
+            {testimonials.map((testimonial, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+              >
+                <Card className="border-accent/20 bg-card/50 backdrop-blur">
+                  <CardContent className="p-6">
+                    <Quotes className="mb-4 h-8 w-8 text-primary" weight="fill" />
+                    <p className="mb-4 text-base leading-relaxed italic text-foreground">
+                      {testimonial.quote}
+                    </p>
+                    <p className={`font-medium ${testimonial.isComingSoon ? 'text-primary font-semibold' : 'text-muted-foreground'}`}>
+                      - {testimonial.author}
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
         </div>
 
         <motion.div
