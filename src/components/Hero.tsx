@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkle } from "@phosphor-icons/react"
-import heroImage1 from "@/assets/images/land-o-lakes-inc-bVNHkbf5BBs-unsplash.jpg"
+import heroImage1 from "@/assets/images/medium-shot-african-women-posing-together.jpg"
 import heroImage2 from "@/assets/images/medium-shot-middle-age-friends.jpg"
 
 const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdwSQQ-0CqktEEXiYxB1IULNNZVIRQqYnKXTD9LMtGYv9sd8Q/viewform"
