@@ -2,7 +2,6 @@ import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Quotes } from "@phosphor-icons/react"
-import heroImage from "@/assets/images/full-shot-smiley-woman-holding-backpack.jpg"
 
 const testimonials = [
   {
@@ -44,22 +43,8 @@ export function Testimonials() {
           </h2>
         </motion.div>
 
-        <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="order-2 lg:order-1"
-          >
-            <img 
-              src={heroImage} 
-              alt="Modern woman with stylish backpack"
-              className="w-full h-auto rounded-2xl shadow-xl object-cover max-h-[600px]"
-            />
-          </motion.div>
-
-          <div className="space-y-6 order-1 lg:order-2">
+        <div className="mx-auto max-w-3xl">
+          <div className="space-y-6">
             {testimonials.map((testimonial, index) => (
               <motion.div
                 key={index}
