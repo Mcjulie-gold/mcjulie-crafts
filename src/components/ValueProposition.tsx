@@ -11,7 +11,7 @@ const pillars = [
   {
     icon: Briefcase,
     title: "Functionally Beautiful",
-    description: "Every pocket, strap, and detail designed with your real life in mind—from morning meetings to midnight feeds.",
+    description: "Every pocket, strap, and detail designed with your real life in mind — from morning meetings to midnight feeds.",
   },
   {
     icon: Heart,

@@ -71,7 +71,7 @@ export function Hero() {
           </p>
           
           <p className="mx-auto mt-8 max-w-3xl text-center text-base leading-relaxed text-foreground/60 md:text-lg lg:text-xl">
-            <span className="font-bold text-primary">Founded for women, by women.</span> We're crafting the future of premium functional design—bags that understand your journey from boardroom to baby room.
+            <span className="font-bold text-primary">Founded for women, by women.</span> We're crafting the future of premium functional design — bags that understand your journey from boardroom to baby room.
           </p>
 
           <motion.div
